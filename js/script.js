@@ -30,6 +30,7 @@ form.addEventListener("submit", (event) => {
 
   // Se tudo estiver válido, enviar formulário
   form.submit();
+  alert("O formulário foi enviado com sucesso!")
 });
 
 
@@ -42,13 +43,13 @@ button.addEventListener("click", () => {
   // Alterar o conteúdo do parágrafo
   paragraph.textContent = "O botão foi clicado!";
   
-  // Alterar a cor de fundo do parágrafo
-  paragraph.style.backgroundColor = "yellow";
+  // Alterar a cor do parágrafo
+  paragraph.style.color = "red";
 });
 
 // Adicionar evento de mouseover ao parágrafo
 paragraph.addEventListener("mouseover", () => {
-  // Alterar a cor de fundo do parágrafo
-  paragraph.style.backgroundColor = "lightblue";
+  // Alterar a cor do parágrafo
+  paragraph.style.color = "blue";
 });
 
