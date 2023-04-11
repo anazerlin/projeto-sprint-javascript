@@ -52,4 +52,3 @@ paragraph.addEventListener("mouseover", () => {
   // Alterar a cor do parágrafo
   paragraph.style.color = "blue";
 });
-
