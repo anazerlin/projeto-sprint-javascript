@@ -32,12 +32,6 @@ form.addEventListener("submit", (event) => {
   form.submit();
 });
 
-  //Tentando fazer uma aviso de alert para depois que fazer o login
-  if (form.submit()) {
-    alert("Login Feito!");
-  }
-
-
 //MANIPULANDO EVENTO DE PÁGINA
 const button = document.getElementById("myButton");
 const paragraph = document.getElementById("myParagraph");
